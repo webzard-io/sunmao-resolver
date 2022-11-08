@@ -1,0 +1,17 @@
+# local
+.vscode
+
+# log
+*.log
+*.log.*
+
+node_modules
+
+# dist
+lib
+dist
+tsconfig.tsbuildinfo
+typings
+
+# jest test coverage
+coverage
