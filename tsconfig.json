@@ -26,5 +26,5 @@
     "declaration": true,
     "declarationDir": "lib"
   },
-  "include": ["./src", "./__tests__/mocks/*"]
+  "include": ["./src", "./__tests__/mocks/ComponentDiff/*.json"]
 }
