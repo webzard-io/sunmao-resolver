@@ -1,13 +1,13 @@
 {
   "name": "@sunmao-ui/resolver",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "a tool for solve sunmao schema conflict",
   "author": "Bowen Tan <bowen.tan@smartx.com>",
   "homepage": "https://github.com/webzard-io/sunmao-resolver",
   "license": "Apache-2.0",
-  "main": "bundle/index.js",
-  "module": "bundle/esm/index.js",
-  "types": "lib/index.d.ts",
+  "main": "bundle/lib.js",
+  "module": "bundle/esm/lib.js",
+  "types": "lib/lib.d.ts",
   "files": [
     "bundle",
     "lib"

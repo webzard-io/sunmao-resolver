@@ -83,7 +83,7 @@ function formatMergeRegionToDiffBlock(
     const conflict = region.conflict;
     let ca = 0;
     let cb = 0;
-    while (conflict.a[ca] || conflict.b[ca]) {
+    while (conflict.a[ca] && conflict.b[ca]) {
       const hashA = conflict.a[ca];
       const hashB = conflict.b[cb];
       const hashO = conflict.o[cb];
